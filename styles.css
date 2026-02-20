@@ -301,12 +301,14 @@ label {
   font-weight: 600;
 }
 
-input {
+input,
+select {
   width: 100%;
   border: 1px solid #bec9db;
   border-radius: 0.5rem;
   padding: 0.72rem;
   font: inherit;
+  background: #fff;
 }
 
 .estimate-content {

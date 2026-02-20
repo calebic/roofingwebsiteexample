@@ -175,6 +175,14 @@
         <form class="estimate-form" aria-label="Get free estimate form">
           <input type="text" name="fullName" placeholder="Full Name" required />
           <input type="tel" name="phone" placeholder="Phone Number" required />
+          <select name="estimateType" aria-label="Estimate type" required>
+            <option value="" selected disabled>Estimate Type</option>
+            <option value="storm-damage">Storm Damage</option>
+            <option value="roof-repair">Roof Repair</option>
+            <option value="roof-replacement">Roof Replacement</option>
+            <option value="gutters-ventilation">Gutters &amp; Ventilation</option>
+            <option value="other">Other</option>
+          </select>
           <input type="text" name="zip" placeholder="ZIP Code" required />
           <button class="btn btn-dark" type="submit">Request My Free Estimate</button>
         </form>
